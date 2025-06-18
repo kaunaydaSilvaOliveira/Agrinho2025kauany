@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planeta Verde: Juntos Contra o Efeito Estufa</title>
+    <!-- Inclui o Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Define a fonte Inter para todo o corpo da página -->
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+    <!-- Importa a biblioteca Font Awesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="bg-gray-100 text-gray-800 leading-relaxed flex flex-col min-h-screen">
+    <!-- Cabeçalho da página -->
+    <header class="bg-green-600 text-white py-6 text-center shadow-md rounded-b-lg">
+        <h1 class="text-5xl font-extrabold flex items-center justify-center gap-4">
+            <i class="fas fa-leaf text-green-300"></i> Planeta Verde
+        </h1>
+        <p class="text-xl font-light mt-2">Juntos Contra o Efeito Estufa</p>
+    </header>
+
+    <!-- Conteúdo principal da página -->
+    <main class="flex-grow p-5 max-w-6xl mx-auto my-8 bg-white shadow-lg rounded-xl">
+        <!-- Seção de Introdução -->
+        <section id="introducao" class="mb-10 p-8 bg-blue-50 border border-blue-200 rounded-lg shadow-sm">
+            <h2 class="text-4xl text-blue-700 font-semibold mb-6 text-center flex items-center justify-center gap-3">
+                <i class="fas fa-hand-holding-heart text-blue-500"></i> Bem-vindo(a) ao Planeta Verde!
+            </h2>
+            <p class="text-lg text-gray-700 text-justify">
+                Nosso objetivo é fornecer um guia prático e inspirador sobre como cada um de nós pode contribuir para mitigar o efeito estufa e construir um futuro mais sustentável. Explore as seções para entender o desafio, descobrir soluções inovadoras e aprender ações diárias que fazem a diferença. Junte-se a nós nesta missão vital para proteger nosso lar!
+            </p>
+        </section>
+
+        <!-- Seção "O Que É o Efeito Estufa" -->
+        <section id="o-que-e" class="mb-10 p-8 bg-green-50 border border-green-200 rounded-lg shadow-sm">
+            <h2 class="text-4xl text-green-700 font-semibold mb-6 text-center flex items-center justify-center gap-3">
+                <i class="fas fa-globe-americas text-green-500"></i> O Efeito Estufa: Uma Visão Geral
+            </h2>
+            <p class="text-lg text-gray-700 text-justify mb-4">
+                O efeito estufa é um processo natural que aquece a superfície da Terra. A radiação solar atinge a Terra, parte é absorvida e outra parte é refletida de volta para o espaço. Gases como dióxido de carbono ($CO_2$), metano ($CH_4$) e óxido nitroso ($N_2O$) na atmosfera absorvem parte dessa radiação refletida, impedindo que todo o calor escape e mantendo o planeta habitável.
+            </p>
+            <p class="text-lg text-gray-700 text-justify">
+                No entanto, a atividade humana, como a queima de combustíveis fósseis (carvão, petróleo, gás natural), o desmatamento e certas práticas agrícolas, tem aumentado drasticamente a concentração desses gases, intensificando o efeito estufa e levando ao aquecimento global e às mudanças climáticas.
+            </p>
+        </section>
+
+        <!-- Seção de Soluções Práticas -->
+        <section id="solucoes-praticas" class="mb-10 p-8 bg-yellow-50 border border-yellow-200 rounded-lg shadow-sm">
+            <h2 class="text-4xl text-yellow-700 font-semibold mb-8 text-center flex items-center justify-center gap-3">
+                <i class="fas fa-lightbulb text-yellow-500"></i> Soluções Práticas para um Futuro Mais Verde
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+                <!-- Cartão de Solução 1 -->
+                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-200">
+                    <i class="fas fa-car-side text-5xl text-blue-500 mb-4 block text-center"></i>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-3 text-center">Mobilidade Sustentável</h3>
+                    <p class="text-gray-700 text-center">Opte por transportes públicos, bicicleta ou caminhe. Se precisar de carro, considere veículos elétricos ou híbridos e compartilhe caronas.</p>
+                </div>
+                <!-- Cartão de Solução 2 -->
+                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-200">
+                    <i class="fas fa-plug text-5xl text-red-500 mb-4 block text-center"></i>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-3 text-center">Eficiência Energética</h3>
+                    <p class="text-gray-700 text-center">Utilize lâmpadas LED, desconecte eletrônicos da tomada quando não estiverem em uso, e otimize o uso de aquecedores e ar condicionado.</p>
+                </div>
+                <!-- Cartão de Solução 3 -->
+                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-200">
+                    <i class="fas fa-recycle text-5xl text-purple-500 mb-4 block text-center"></i>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-3 text-center">Redução e Reciclagem de Resíduos</h3>
+                    <p class="text-gray-700 text-center">Minimize o consumo, separe o lixo para reciclagem e pratique a compostagem de resíduos orgânicos.</p>
+                </div>
+                <!-- Cartão de Solução 4 -->
+                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-200">
+                    <i class="fas fa-tree text-5xl text-green-600 mb-4 block text-center"></i>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-3 text-center">Florestamento e Reflorestamento</h3>
+                    <p class="text-gray-700 text-center">Plante árvores e apoie iniciativas de conservação florestal. Árvores são essenciais para absorver $CO_2$.</p>
+                </div>
+                <!-- Cartão de Solução 5 -->
+                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-200">
+                    <i class="fas fa-apple-alt text-5xl text-lime-600 mb-4 block text-center"></i>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-3 text-center">Alimentação Consciente</h3>
+                    <p class="text-gray-700 text-center">Prefira alimentos de origem local e sazonal, reduza o consumo de carne e evite o desperdício alimentar.</p>
+                </div>
+                <!-- Cartão de Solução 6 -->
+                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-200">
+                    <i class="fas fa-solar-panel text-5xl text-orange-500 mb-4 block text-center"></i>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-3 text-center">Fontes de Energia Renovável</h3>
+                    <p class="text-gray-700 text-center">Apoie e invista em energia solar, eólica, hidrelétrica e outras fontes limpas de energia.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de Chamada para Ação -->
+        <section id="chamada-acao" class="text-center p-8 bg-indigo-50 border border-indigo-200 rounded-lg shadow-sm">
+            <h2 class="text-4xl text-indigo-700 font-semibold mb-6 flex items-center justify-center gap-3">
+                <i class="fas fa-hands-helping text-indigo-500"></i> Faça a Sua Parte!
+            </h2>
+            <p class="text-lg text-gray-700 mb-8">
+                Cada ação, por menor que pareça, contribui para um impacto maior. Juntos, podemos construir um futuro mais resiliente e verde para as próximas gerações.
+            </p>
+            <button id="btnSaibaMais" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-full text-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 focus:outline-none focus:ring-4 focus:ring-blue-300 focus:ring-opacity-75">
+                Descubra Mais Dicas
+            </button>
+        </section>
+    </main>
+
+    <!-- Rodapé da página -->
+    <footer class="bg-gray-800 text-white py-6 text-center mt-auto rounded-t-lg">
+        <p class="text-sm">&copy; 2025 Planeta Verde. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Script JavaScript para interatividade -->
+    <script src="script.js"></script>
+</body>
+</html>
